@@ -1,0 +1,49 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs (keep sample logs, ignore live logs)
+*.log
+!logs/sample_firewall.log
+!logs/sample_router.log
+
+# Secrets
+*.env
+.env
+secrets.json
+credentials.json
+
+# Alerts folder (auto-generated)
+alerts/*.json
+
+# Reports (auto-generated)
+reports/*.pdf
+!reports/README.md
