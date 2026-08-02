@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alerts - FireWall Analyzer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { background:#0d1117; color:#c9d1d9; }
+        .navbar { background:#161b22; border-bottom:1px solid #30363d; }
+        .navbar-brand { color:#58a6ff !important; font-weight:700; }
+        .nav-link { color:#8b949e !important; }
+        .nav-link:hover, .nav-link.active { color:#58a6ff !important; }
+        .card { background:#161b22; border:1px solid #30363d; border-radius:8px; }
+        .table { color:#c9d1d9; }
+        .table-hover tbody tr:hover { background:#21262d; }
+        thead { background:#21262d; }
+        .badge-CRITICAL { background:#f85149; }
+        .badge-HIGH     { background:#d29922; }
+        .badge-MEDIUM   { background:#388bfd; }
+        .badge-LOW      { background:#3fb950; color:#000; }
+        select { background:#21262d; color:#c9d1d9; border:1px solid #30363d; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg px-4">
+    <a class="navbar-brand" href="/"><i class="fas fa-shield-alt me-2"></i>FireWall Analyzer</a>
+    <div class="ms-auto d-flex gap-3">
+        <a class="nav-link" href="/"><i class="fas fa-tachometer-alt me-1"></i>Dashboard</a>
+        <a class="nav-link active" href="/alerts"><i class="fas fa-bell me-1"></i>Alerts</a>
+        <a class="nav-link" href="/reports"><i class="fas fa-chart-bar me-1"></i>Reports</a>
+    </div>
+</nav>
+
+<div class="container-fluid p-4">
+    <h4 class="mb-3"><i class="fas fa-bell text-warning me-2"></i>Security Alerts</h4>
+
+    <div class="card p-3 mb-3">
+        <div class="row g-2 align-items-center">
+            <div class="col-auto"><strong>Filter by:</strong></div>
+            <div class="col-auto">
+                <select class="form-select form-select-sm" onchange="filterAlerts(this.value, '{{ status_filter }}')">
+                    {% for s in ['ALL','CRITICAL','HIGH','MEDIUM','LOW'] %}
+                    <option value="{{ s }}" {{ 'selected' if severity_filter == s }}>{{ s }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-auto">
+                <select class="form-select form-select-sm" onchange="filterAlerts('{{ severity_filter }}', this.value)">
+                    {% for s in ['ALL','OPEN','RESOLVED'] %}
+                    <option value="{{ s }}" {{ 'selected' if status_filter == s }}>{{ s }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-auto ms-auto text-muted">
+                Showing {{ alerts|length }} alerts
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th>Alert ID</th>
+                        <th>Severity</th>
+                        <th>Type</th>
+                        <th>Source IP</th>
+                        <th>Dest Port</th>
+                        <th>Protocol</th>
+                        <th>Description</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for a in alerts %}
+                    <tr>
+                        <td><code>{{ a.alert_id }}</code></td>
+                        <td><span class="badge badge-{{ a.severity }}">{{ a.severity }}</span></td>
+                        <td><small>{{ a.violation_type }}</small></td>
+                        <td><code>{{ a.src_ip }}</code></td>
+                        <td>{{ a.dst_port }}</td>
+                        <td>{{ a.protocol }}</td>
+                        <td><small>{{ (a.description or '')[:60] }}...</small></td>
+                        <td>
+                            <span id="status-{{ a.id }}" class="badge {{ 'bg-danger' if a.status == 'OPEN' else 'bg-success' }}">
+                                {{ a.status }}
+                            </span>
+                        </td>
+                        <td>
+                            {% if a.status == 'OPEN' %}
+                            <button class="btn btn-sm btn-outline-success" onclick="resolve({{ a.id }})">
+                                ✅ Resolve
+                            </button>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr><td colspan="9" class="text-center py-4 text-muted">No alerts found.</td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+function filterAlerts(severity, status) {
+    window.location = `/alerts?severity=${severity}&status=${status}`;
+}
+
+function resolve(id) {
+    fetch(`/alerts/${id}/resolve`, {method:'POST'})
+    .then(r => r.json())
+    .then(d => {
+        if (d.success) {
+            document.getElementById(`status-${id}`).className = 'badge bg-success';
+            document.getElementById(`status-${id}`).textContent = 'RESOLVED';
+        }
+    });
+}
+</script>
+</body>
+</html>
