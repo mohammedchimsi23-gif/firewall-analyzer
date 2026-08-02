@@ -1,0 +1,201 @@
+timestamp,event,ip,user,message,severity
+2026-08-01 01:38:33,LOGIN_FAILED,192.168.1.25,admin,Authentication failed for user admin from 192.168.1.25,WARNING
+2026-07-27 15:15:33,ACL_MATCH,192.168.1.14,unknown,ACL rule matched for traffic from 192.168.1.14,WARNING
+2026-07-31 01:07:33,LOGIN_SUCCESS,192.168.1.3,netadmin,User netadmin logged in successfully from 192.168.1.3,INFO
+2026-07-30 09:29:33,ROUTE_CHANGE,127.0.0.1,admin,System event: ROUTE_CHANGE,INFO
+2026-08-02 12:41:33,LOGIN_SUCCESS,192.168.1.29,netadmin,User netadmin logged in successfully from 192.168.1.29,INFO
+2026-07-30 11:27:33,LOGIN_SUCCESS,192.168.1.27,netadmin,User netadmin logged in successfully from 192.168.1.27,INFO
+2026-07-30 06:41:33,LOGIN_SUCCESS,192.168.1.14,admin,User admin logged in successfully from 192.168.1.14,INFO
+2026-07-30 12:20:33,ACL_MATCH,192.168.1.8,unknown,ACL rule matched for traffic from 192.168.1.8,WARNING
+2026-07-30 03:48:33,CONFIG_CHANGE,192.168.1.28,user1,Configuration changed by user1 from 192.168.1.28,CRITICAL
+2026-07-30 16:49:33,CONFIG_CHANGE,192.168.1.2,netadmin,Configuration changed by netadmin from 192.168.1.2,CRITICAL
+2026-07-28 10:14:33,CONFIG_CHANGE,192.168.1.8,user1,Configuration changed by user1 from 192.168.1.8,CRITICAL
+2026-07-30 20:37:33,ROUTE_CHANGE,127.0.0.1,netadmin,System event: ROUTE_CHANGE,INFO
+2026-07-28 03:03:33,CONFIG_CHANGE,192.168.1.17,admin,Configuration changed by admin from 192.168.1.17,CRITICAL
+2026-07-31 00:40:33,LOGIN_SUCCESS,192.168.1.16,netadmin,User netadmin logged in successfully from 192.168.1.16,INFO
+2026-08-01 21:06:33,ACL_MATCH,192.168.1.13,admin,ACL rule matched for traffic from 192.168.1.13,WARNING
+2026-07-29 09:56:33,LOGIN_SUCCESS,192.168.1.25,netadmin,User netadmin logged in successfully from 192.168.1.25,INFO
+2026-07-31 18:17:33,LOGIN_SUCCESS,192.168.1.8,netadmin,User netadmin logged in successfully from 192.168.1.8,INFO
+2026-08-01 09:48:33,ROUTE_CHANGE,127.0.0.1,admin,System event: ROUTE_CHANGE,INFO
+2026-07-30 18:45:33,LOGIN_SUCCESS,192.168.1.23,admin,User admin logged in successfully from 192.168.1.23,INFO
+2026-07-29 09:02:33,ACL_MATCH,192.168.1.16,admin,ACL rule matched for traffic from 192.168.1.16,WARNING
+2026-07-30 19:47:33,ROUTE_CHANGE,127.0.0.1,admin,System event: ROUTE_CHANGE,INFO
+2026-08-02 01:58:33,CONFIG_CHANGE,192.168.1.10,root,Configuration changed by root from 192.168.1.10,CRITICAL
+2026-07-30 12:03:33,LOGIN_SUCCESS,192.168.1.5,admin,User admin logged in successfully from 192.168.1.5,INFO
+2026-07-27 16:13:33,LOGIN_SUCCESS,192.168.1.21,admin,User admin logged in successfully from 192.168.1.21,INFO
+2026-07-27 13:28:33,ACL_MATCH,192.168.1.7,admin,ACL rule matched for traffic from 192.168.1.7,WARNING
+2026-08-01 08:11:33,LOGIN_FAILED,192.168.1.15,user1,Authentication failed for user user1 from 192.168.1.15,WARNING
+2026-07-28 02:30:33,ACL_MATCH,192.168.1.10,unknown,ACL rule matched for traffic from 192.168.1.10,WARNING
+2026-07-27 16:41:33,ACL_MATCH,192.168.1.25,user1,ACL rule matched for traffic from 192.168.1.25,WARNING
+2026-07-27 07:25:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-08-02 09:17:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-07-30 04:53:33,ROUTE_CHANGE,127.0.0.1,netadmin,System event: ROUTE_CHANGE,INFO
+2026-07-29 07:28:33,CONFIG_CHANGE,192.168.1.2,admin,Configuration changed by admin from 192.168.1.2,CRITICAL
+2026-07-28 12:56:33,LOGIN_SUCCESS,192.168.1.28,admin,User admin logged in successfully from 192.168.1.28,INFO
+2026-07-29 08:33:33,CONFIG_CHANGE,192.168.1.21,root,Configuration changed by root from 192.168.1.21,CRITICAL
+2026-07-29 07:24:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-08-01 16:31:33,CONFIG_CHANGE,192.168.1.25,unknown,Configuration changed by unknown from 192.168.1.25,CRITICAL
+2026-07-29 05:01:33,CONFIG_CHANGE,192.168.1.23,netadmin,Configuration changed by netadmin from 192.168.1.23,CRITICAL
+2026-07-30 15:32:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-08-01 03:36:33,CONFIG_CHANGE,192.168.1.29,admin,Configuration changed by admin from 192.168.1.29,CRITICAL
+2026-07-31 07:16:33,LOGIN_SUCCESS,192.168.1.13,admin,User admin logged in successfully from 192.168.1.13,INFO
+2026-08-02 19:09:33,INTERFACE_DOWN,127.0.0.1,user1,System event: INTERFACE_DOWN,INFO
+2026-08-01 21:21:33,LOGIN_SUCCESS,192.168.1.1,admin,User admin logged in successfully from 192.168.1.1,INFO
+2026-07-29 15:25:33,CONFIG_CHANGE,192.168.1.23,user1,Configuration changed by user1 from 192.168.1.23,CRITICAL
+2026-07-28 14:15:33,CONFIG_CHANGE,192.168.1.12,root,Configuration changed by root from 192.168.1.12,CRITICAL
+2026-07-27 01:36:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-08-01 04:36:33,INTERFACE_DOWN,127.0.0.1,unknown,System event: INTERFACE_DOWN,INFO
+2026-07-29 20:37:33,LOGIN_SUCCESS,192.168.1.18,admin,User admin logged in successfully from 192.168.1.18,INFO
+2026-07-31 02:41:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-07-27 15:13:33,ACL_MATCH,192.168.1.12,unknown,ACL rule matched for traffic from 192.168.1.12,WARNING
+2026-08-01 15:14:33,LOGIN_FAILED,185.220.101.45,root,Authentication failed for user root from 185.220.101.45,WARNING
+2026-07-27 11:58:33,LOGIN_FAILED,192.168.1.20,netadmin,Authentication failed for user netadmin from 192.168.1.20,WARNING
+2026-08-01 21:21:33,ROUTE_CHANGE,127.0.0.1,unknown,System event: ROUTE_CHANGE,INFO
+2026-07-31 20:56:33,LOGIN_SUCCESS,192.168.1.28,admin,User admin logged in successfully from 192.168.1.28,INFO
+2026-07-30 17:25:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-07-29 13:31:33,CONFIG_CHANGE,192.168.1.7,unknown,Configuration changed by unknown from 192.168.1.7,CRITICAL
+2026-08-02 07:13:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-08-01 17:51:33,LOGIN_FAILED,192.168.1.21,user1,Authentication failed for user user1 from 192.168.1.21,WARNING
+2026-08-02 21:06:33,LOGIN_FAILED,192.168.1.27,user1,Authentication failed for user user1 from 192.168.1.27,WARNING
+2026-07-27 20:50:33,ROUTE_CHANGE,127.0.0.1,user1,System event: ROUTE_CHANGE,INFO
+2026-07-31 20:01:33,ACL_MATCH,192.168.1.11,netadmin,ACL rule matched for traffic from 192.168.1.11,WARNING
+2026-08-02 03:33:33,CONFIG_CHANGE,192.168.1.24,user1,Configuration changed by user1 from 192.168.1.24,CRITICAL
+2026-07-29 04:17:33,LOGIN_SUCCESS,192.168.1.4,admin,User admin logged in successfully from 192.168.1.4,INFO
+2026-07-28 15:06:33,LOGIN_FAILED,192.168.1.26,netadmin,Authentication failed for user netadmin from 192.168.1.26,WARNING
+2026-08-01 02:12:33,CONFIG_CHANGE,192.168.1.8,user1,Configuration changed by user1 from 192.168.1.8,CRITICAL
+2026-07-27 00:05:33,LOGIN_SUCCESS,192.168.1.1,admin,User admin logged in successfully from 192.168.1.1,INFO
+2026-07-27 09:17:33,LOGIN_SUCCESS,192.168.1.22,admin,User admin logged in successfully from 192.168.1.22,INFO
+2026-07-27 02:38:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-07-30 17:21:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-07-28 17:08:33,LOGIN_SUCCESS,192.168.1.20,netadmin,User netadmin logged in successfully from 192.168.1.20,INFO
+2026-07-28 19:18:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-08-01 04:21:33,LOGIN_SUCCESS,192.168.1.13,admin,User admin logged in successfully from 192.168.1.13,INFO
+2026-07-29 05:11:33,CONFIG_CHANGE,192.168.1.25,netadmin,Configuration changed by netadmin from 192.168.1.25,CRITICAL
+2026-07-27 12:47:33,LOGIN_SUCCESS,192.168.1.16,netadmin,User netadmin logged in successfully from 192.168.1.16,INFO
+2026-08-02 03:31:33,ACL_MATCH,192.168.1.25,admin,ACL rule matched for traffic from 192.168.1.25,WARNING
+2026-07-27 04:19:33,ROUTE_CHANGE,127.0.0.1,unknown,System event: ROUTE_CHANGE,INFO
+2026-08-02 15:41:33,LOGIN_FAILED,192.168.1.23,netadmin,Authentication failed for user netadmin from 192.168.1.23,WARNING
+2026-07-28 12:17:33,LOGIN_FAILED,192.168.1.23,user1,Authentication failed for user user1 from 192.168.1.23,WARNING
+2026-07-31 22:24:33,LOGIN_SUCCESS,192.168.1.28,admin,User admin logged in successfully from 192.168.1.28,INFO
+2026-07-31 15:41:33,ACL_MATCH,192.168.1.11,root,ACL rule matched for traffic from 192.168.1.11,WARNING
+2026-07-31 09:21:33,CONFIG_CHANGE,192.168.1.19,user1,Configuration changed by user1 from 192.168.1.19,CRITICAL
+2026-07-31 22:57:33,LOGIN_SUCCESS,192.168.1.9,netadmin,User netadmin logged in successfully from 192.168.1.9,INFO
+2026-07-29 20:31:33,LOGIN_FAILED,192.168.1.20,unknown,Authentication failed for user unknown from 192.168.1.20,WARNING
+2026-07-30 00:49:33,ACL_MATCH,192.168.1.17,user1,ACL rule matched for traffic from 192.168.1.17,WARNING
+2026-07-29 09:27:33,LOGIN_SUCCESS,192.168.1.14,admin,User admin logged in successfully from 192.168.1.14,INFO
+2026-07-28 09:40:33,CONFIG_CHANGE,192.168.1.26,admin,Configuration changed by admin from 192.168.1.26,CRITICAL
+2026-07-27 01:00:33,CONFIG_CHANGE,192.168.1.21,user1,Configuration changed by user1 from 192.168.1.21,CRITICAL
+2026-07-31 05:36:33,ROUTE_CHANGE,127.0.0.1,user1,System event: ROUTE_CHANGE,INFO
+2026-07-29 09:50:33,ROUTE_CHANGE,127.0.0.1,user1,System event: ROUTE_CHANGE,INFO
+2026-07-31 04:16:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-07-30 07:23:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-08-02 08:10:33,CONFIG_CHANGE,192.168.1.23,netadmin,Configuration changed by netadmin from 192.168.1.23,CRITICAL
+2026-07-28 12:26:33,CONFIG_CHANGE,192.168.1.26,unknown,Configuration changed by unknown from 192.168.1.26,CRITICAL
+2026-08-01 01:04:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-07-28 05:09:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-07-30 00:19:33,CONFIG_CHANGE,192.168.1.4,root,Configuration changed by root from 192.168.1.4,CRITICAL
+2026-08-01 08:28:33,ACL_MATCH,192.168.1.22,user1,ACL rule matched for traffic from 192.168.1.22,WARNING
+2026-07-29 21:06:33,LOGIN_FAILED,192.168.1.5,unknown,Authentication failed for user unknown from 192.168.1.5,WARNING
+2026-08-01 21:28:33,ACL_MATCH,192.168.1.27,root,ACL rule matched for traffic from 192.168.1.27,WARNING
+2026-07-27 08:27:33,ROUTE_CHANGE,127.0.0.1,root,System event: ROUTE_CHANGE,INFO
+2026-08-02 10:34:33,CONFIG_CHANGE,192.168.1.20,admin,Configuration changed by admin from 192.168.1.20,CRITICAL
+2026-08-02 00:24:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-07-27 13:16:33,LOGIN_SUCCESS,192.168.1.23,netadmin,User netadmin logged in successfully from 192.168.1.23,INFO
+2026-07-30 21:20:33,CONFIG_CHANGE,192.168.1.24,user1,Configuration changed by user1 from 192.168.1.24,CRITICAL
+2026-07-28 15:31:33,CONFIG_CHANGE,192.168.1.28,admin,Configuration changed by admin from 192.168.1.28,CRITICAL
+2026-07-30 17:58:33,ACL_MATCH,192.168.1.25,user1,ACL rule matched for traffic from 192.168.1.25,WARNING
+2026-07-27 22:28:33,CONFIG_CHANGE,192.168.1.18,root,Configuration changed by root from 192.168.1.18,CRITICAL
+2026-08-02 20:38:33,ROUTE_CHANGE,127.0.0.1,root,System event: ROUTE_CHANGE,INFO
+2026-07-28 04:06:33,ACL_MATCH,192.168.1.28,user1,ACL rule matched for traffic from 192.168.1.28,WARNING
+2026-07-30 01:11:33,LOGIN_FAILED,192.168.1.18,root,Authentication failed for user root from 192.168.1.18,WARNING
+2026-07-29 04:29:33,ACL_MATCH,192.168.1.23,root,ACL rule matched for traffic from 192.168.1.23,WARNING
+2026-08-01 06:51:33,CONFIG_CHANGE,192.168.1.22,root,Configuration changed by root from 192.168.1.22,CRITICAL
+2026-07-29 03:53:33,LOGIN_SUCCESS,192.168.1.16,netadmin,User netadmin logged in successfully from 192.168.1.16,INFO
+2026-07-27 18:31:33,LOGIN_SUCCESS,192.168.1.12,admin,User admin logged in successfully from 192.168.1.12,INFO
+2026-07-29 23:57:33,ROUTE_CHANGE,127.0.0.1,user1,System event: ROUTE_CHANGE,INFO
+2026-07-30 16:03:33,CONFIG_CHANGE,192.168.1.17,root,Configuration changed by root from 192.168.1.17,CRITICAL
+2026-07-30 00:55:33,LOGIN_SUCCESS,192.168.1.5,netadmin,User netadmin logged in successfully from 192.168.1.5,INFO
+2026-07-29 20:54:33,LOGIN_FAILED,192.168.1.24,user1,Authentication failed for user user1 from 192.168.1.24,WARNING
+2026-08-01 13:52:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-07-27 18:13:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-08-01 05:24:33,LOGIN_FAILED,194.165.16.72,user1,Authentication failed for user user1 from 194.165.16.72,WARNING
+2026-08-02 03:36:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-07-28 05:55:33,LOGIN_SUCCESS,192.168.1.8,admin,User admin logged in successfully from 192.168.1.8,INFO
+2026-08-01 11:59:33,CONFIG_CHANGE,192.168.1.6,user1,Configuration changed by user1 from 192.168.1.6,CRITICAL
+2026-08-01 19:32:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-07-29 05:15:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-07-31 11:44:33,CONFIG_CHANGE,192.168.1.17,admin,Configuration changed by admin from 192.168.1.17,CRITICAL
+2026-08-01 21:45:33,ACL_MATCH,192.168.1.12,unknown,ACL rule matched for traffic from 192.168.1.12,WARNING
+2026-07-30 13:38:33,ACL_MATCH,192.168.1.27,netadmin,ACL rule matched for traffic from 192.168.1.27,WARNING
+2026-07-30 02:04:33,ACL_MATCH,192.168.1.20,netadmin,ACL rule matched for traffic from 192.168.1.20,WARNING
+2026-07-31 20:29:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-07-28 15:22:33,ACL_MATCH,192.168.1.8,netadmin,ACL rule matched for traffic from 192.168.1.8,WARNING
+2026-07-27 22:59:33,CONFIG_CHANGE,192.168.1.14,root,Configuration changed by root from 192.168.1.14,CRITICAL
+2026-08-02 04:16:33,LOGIN_FAILED,192.168.1.17,unknown,Authentication failed for user unknown from 192.168.1.17,WARNING
+2026-07-31 03:00:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-07-29 07:24:33,LOGIN_FAILED,192.168.1.3,netadmin,Authentication failed for user netadmin from 192.168.1.3,WARNING
+2026-08-01 20:05:33,ROUTE_CHANGE,127.0.0.1,admin,System event: ROUTE_CHANGE,INFO
+2026-07-30 01:54:33,ROUTE_CHANGE,127.0.0.1,admin,System event: ROUTE_CHANGE,INFO
+2026-07-27 01:36:33,LOGIN_FAILED,192.168.1.14,netadmin,Authentication failed for user netadmin from 192.168.1.14,WARNING
+2026-07-30 14:44:33,ACL_MATCH,192.168.1.14,netadmin,ACL rule matched for traffic from 192.168.1.14,WARNING
+2026-08-02 08:02:33,CONFIG_CHANGE,192.168.1.13,netadmin,Configuration changed by netadmin from 192.168.1.13,CRITICAL
+2026-07-29 06:48:33,ROUTE_CHANGE,127.0.0.1,root,System event: ROUTE_CHANGE,INFO
+2026-07-31 13:05:33,ROUTE_CHANGE,127.0.0.1,unknown,System event: ROUTE_CHANGE,INFO
+2026-07-28 23:38:33,ACL_MATCH,192.168.1.17,user1,ACL rule matched for traffic from 192.168.1.17,WARNING
+2026-07-28 02:19:33,CONFIG_CHANGE,192.168.1.22,unknown,Configuration changed by unknown from 192.168.1.22,CRITICAL
+2026-07-30 00:36:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-07-31 06:23:33,CONFIG_CHANGE,192.168.1.10,unknown,Configuration changed by unknown from 192.168.1.10,CRITICAL
+2026-07-27 08:01:33,LOGIN_FAILED,192.168.1.1,admin,Authentication failed for user admin from 192.168.1.1,WARNING
+2026-07-31 00:31:33,INTERFACE_DOWN,127.0.0.1,user1,System event: INTERFACE_DOWN,INFO
+2026-08-01 06:06:33,CONFIG_CHANGE,192.168.1.20,unknown,Configuration changed by unknown from 192.168.1.20,CRITICAL
+2026-07-29 15:23:33,ACL_MATCH,192.168.1.17,netadmin,ACL rule matched for traffic from 192.168.1.17,WARNING
+2026-07-28 13:41:33,CONFIG_CHANGE,192.168.1.24,unknown,Configuration changed by unknown from 192.168.1.24,CRITICAL
+2026-07-29 09:18:33,ROUTE_CHANGE,127.0.0.1,root,System event: ROUTE_CHANGE,INFO
+2026-07-31 02:49:33,ROUTE_CHANGE,127.0.0.1,root,System event: ROUTE_CHANGE,INFO
+2026-07-27 15:24:33,LOGIN_SUCCESS,192.168.1.23,admin,User admin logged in successfully from 192.168.1.23,INFO
+2026-07-31 12:01:33,LOGIN_SUCCESS,192.168.1.1,admin,User admin logged in successfully from 192.168.1.1,INFO
+2026-07-31 09:46:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-08-01 13:24:33,ACL_MATCH,192.168.1.21,user1,ACL rule matched for traffic from 192.168.1.21,WARNING
+2026-07-31 21:51:33,LOGIN_SUCCESS,192.168.1.17,admin,User admin logged in successfully from 192.168.1.17,INFO
+2026-08-02 02:31:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-07-29 15:11:33,ROUTE_CHANGE,127.0.0.1,admin,System event: ROUTE_CHANGE,INFO
+2026-07-30 11:17:33,ROUTE_CHANGE,127.0.0.1,root,System event: ROUTE_CHANGE,INFO
+2026-08-01 02:47:33,ACL_MATCH,192.168.1.27,user1,ACL rule matched for traffic from 192.168.1.27,WARNING
+2026-07-30 10:32:33,INTERFACE_DOWN,127.0.0.1,user1,System event: INTERFACE_DOWN,INFO
+2026-07-28 15:22:33,CONFIG_CHANGE,192.168.1.19,admin,Configuration changed by admin from 192.168.1.19,CRITICAL
+2026-07-31 14:18:33,ACL_MATCH,192.168.1.15,netadmin,ACL rule matched for traffic from 192.168.1.15,WARNING
+2026-07-31 12:24:33,LOGIN_SUCCESS,192.168.1.26,admin,User admin logged in successfully from 192.168.1.26,INFO
+2026-07-29 02:38:33,LOGIN_SUCCESS,192.168.1.19,netadmin,User netadmin logged in successfully from 192.168.1.19,INFO
+2026-07-29 07:24:33,LOGIN_SUCCESS,192.168.1.28,netadmin,User netadmin logged in successfully from 192.168.1.28,INFO
+2026-08-01 16:06:33,LOGIN_FAILED,192.168.1.27,unknown,Authentication failed for user unknown from 192.168.1.27,WARNING
+2026-07-27 02:31:33,LOGIN_SUCCESS,192.168.1.2,admin,User admin logged in successfully from 192.168.1.2,INFO
+2026-08-02 09:12:33,LOGIN_SUCCESS,192.168.1.25,netadmin,User netadmin logged in successfully from 192.168.1.25,INFO
+2026-07-28 02:25:33,CONFIG_CHANGE,192.168.1.1,user1,Configuration changed by user1 from 192.168.1.1,CRITICAL
+2026-08-01 00:25:33,LOGIN_FAILED,192.168.1.28,admin,Authentication failed for user admin from 192.168.1.28,WARNING
+2026-07-30 12:05:33,LOGIN_FAILED,192.168.1.24,unknown,Authentication failed for user unknown from 192.168.1.24,WARNING
+2026-07-28 07:16:33,CONFIG_CHANGE,192.168.1.23,unknown,Configuration changed by unknown from 192.168.1.23,CRITICAL
+2026-07-31 06:48:33,ROUTE_CHANGE,127.0.0.1,unknown,System event: ROUTE_CHANGE,INFO
+2026-08-01 12:07:33,ACL_MATCH,185.220.101.45,unknown,ACL rule matched for traffic from 185.220.101.45,WARNING
+2026-08-02 15:31:33,INTERFACE_DOWN,127.0.0.1,netadmin,System event: INTERFACE_DOWN,INFO
+2026-08-01 16:30:33,CONFIG_CHANGE,192.168.1.25,unknown,Configuration changed by unknown from 192.168.1.25,CRITICAL
+2026-08-02 04:24:33,ROUTE_CHANGE,127.0.0.1,user1,System event: ROUTE_CHANGE,INFO
+2026-08-02 21:41:33,CONFIG_CHANGE,192.168.1.23,user1,Configuration changed by user1 from 192.168.1.23,CRITICAL
+2026-07-27 21:34:33,LOGIN_SUCCESS,192.168.1.22,netadmin,User netadmin logged in successfully from 192.168.1.22,INFO
+2026-07-31 00:47:33,LOGIN_FAILED,192.168.1.20,unknown,Authentication failed for user unknown from 192.168.1.20,WARNING
+2026-07-29 13:49:33,LOGIN_SUCCESS,192.168.1.13,netadmin,User netadmin logged in successfully from 192.168.1.13,INFO
+2026-07-28 18:37:33,LOGIN_SUCCESS,192.168.1.4,netadmin,User netadmin logged in successfully from 192.168.1.4,INFO
+2026-07-27 09:25:33,LOGIN_FAILED,192.168.1.28,admin,Authentication failed for user admin from 192.168.1.28,WARNING
+2026-08-01 19:23:33,ROUTE_CHANGE,127.0.0.1,unknown,System event: ROUTE_CHANGE,INFO
+2026-07-26 22:53:33,ACL_MATCH,192.168.1.19,netadmin,ACL rule matched for traffic from 192.168.1.19,WARNING
+2026-08-02 03:10:33,ROUTE_CHANGE,127.0.0.1,admin,System event: ROUTE_CHANGE,INFO
+2026-08-02 03:46:33,LOGIN_SUCCESS,192.168.1.18,netadmin,User netadmin logged in successfully from 192.168.1.18,INFO
+2026-08-01 02:43:33,CONFIG_CHANGE,192.168.1.20,root,Configuration changed by root from 192.168.1.20,CRITICAL
+2026-07-31 06:17:33,CONFIG_CHANGE,192.168.1.27,unknown,Configuration changed by unknown from 192.168.1.27,CRITICAL
+2026-07-27 13:37:33,INTERFACE_DOWN,127.0.0.1,admin,System event: INTERFACE_DOWN,INFO
+2026-08-01 20:08:33,LOGIN_FAILED,192.168.1.12,user1,Authentication failed for user user1 from 192.168.1.12,WARNING
+2026-08-02 21:44:33,CONFIG_CHANGE,192.168.1.29,unknown,Configuration changed by unknown from 192.168.1.29,CRITICAL
+2026-07-31 16:56:33,INTERFACE_DOWN,127.0.0.1,root,System event: INTERFACE_DOWN,INFO
+2026-07-28 23:50:33,ACL_MATCH,192.168.1.27,root,ACL rule matched for traffic from 192.168.1.27,WARNING
+2026-08-01 04:52:33,CONFIG_CHANGE,192.168.1.12,netadmin,Configuration changed by netadmin from 192.168.1.12,CRITICAL
+2026-08-02 15:21:33,LOGIN_SUCCESS,192.168.1.22,admin,User admin logged in successfully from 192.168.1.22,INFO
+2026-07-31 23:03:33,ACL_MATCH,192.168.1.6,unknown,ACL rule matched for traffic from 192.168.1.6,WARNING
